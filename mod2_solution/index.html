@@ -2,10 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        [class*="col-"] {
+  width: 100%;
+}
+@media(min-width: 992px) {
+  .c1{float: left;width: 33.33%;padding: 10px;height: 300px;}
+  .c2{float: left;width: 33.33%;padding: 10px;height: 300px;}
+  .c3{float: left;width: 33.33%;padding: 10px;height: 300px;}
+  
+}
+@media(min-width: 768px) and (max-width: 991px){
+  .c1{float: left;width: 50%;padding:10px;max-height: fit-content;}
+  .c2{float: left;width: 50%;padding:10px;max-height: fit-content;}
+  .c3{float: right; width: 100%;padding: 10px;}
+  
+}
+@media(max-width:767px) {
+  .c1{width:100%;padding: 10px;margin: 0%;}
+  .c2{width:100%;padding: 10px;margin: 0%;}
+  .c3{width:100%;padding: 10px;margin: 0%;}
+  
+}
+
+       .a1{text-align: center;}
+       * {box-sizing: border-box;}
+      
+       .r1 {margin:12px;}
+       .r1:after {content: normal;display: table;clear: both;}
+      
+       .a2{background-color: darksalmon;text-align:left;width: fit-content;margin-left: auto;margin-right: 0%;margin-top: 0%;margin-bottom: 0%;}
+      
+       .a3{background-color: rgba(143, 0, 0, 0.541);color: aliceblue; text-align:left;width: fit-content;margin-left: auto;margin-right: 0%;margin-top: 0%;margin-bottom: 0%;}
+       .a4{background-color: rgba(255, 208, 0, 0.678);text-align:left;width: fit-content;margin-left: auto;margin-right: 0%;margin-top: 0%;margin-bottom: 0%;}
+       .box{background-color: grey; padding: 0%; text-align: center;border: 2px solid black;margin: 0%;}
+       p{margin: 0%;}
+    </style>
 </head>
 <body>
-    <h1>Our Menu</h1>
+    <h1 class="a1">Our Menu</h1>
+    <div class="r1">
+        <div class="c1">
+            <div class="box">
+            
+            <h2 class="a2">Paneer lababdar</h2>
+            <p>Paneer Lababdar is an authentic Punjabi accompaniment that has a luscious combination of cottage cheese and exotic gravy made from tomato puree, chopped onions, cashew nuts and spices.Lababdar, this word means a strong desire for something and a complete surrender when you get it.It goes very well with Indian bread like Butter and Garlic Naan, Laccha Paratha and can be served with Jeera Rice, Dal Makhani as well.It is popular Paneer Recipes. </p>
+           
+            </div>
+        </div>
+        <div class="c2">
+            <div class="box">
+             
+            <h2 class="a3">Butter Paneer Masala</h2>
+            <p>Also known as butter paneer, it is a rich & creamy curry made with paneer, spices, onions, tomatoes, cashews and butter.One of the favourite paneer dish.The dish has a lovely tang coming from the tomatoes and is slightly sweet with a creamy and velvety feel to it.paneer butter masala gravy has a slightly sweet taste and very mildly spiced. Thus making it an excellent gravy with roti or chapati.you can serve this dish with naan or tandoori roti.</p>
+            
+            </div>
+        </div>
+        <div class="c3">
+            <div class="box">
+           
+            <h2 class="a4">Kadai Paneer</h2>
+            <p>Kadai Paneer or Karahi Paneer is a famous Paneer gravy recipe and is one of the most common dishes ordered in an Indian restaurant.Gravy made from tomato puree, chopped onions, cashew nuts and spices.you can serve this dish with naan bread or tandoori roti or plain paratha or pudina paratha or lachha paratha.you can serve this dish with naan bread or tandoori roti or plain paratha or pudina paratha or lachha paratha.It is popular Paneer Recipes.</p>
+           
+            </div>
+        </div>
+    </div>
 </body>
 </html>
