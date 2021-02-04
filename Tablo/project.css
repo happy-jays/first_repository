@@ -1,0 +1,257 @@
+ body{
+    margin: 0px;
+   width: 100%;
+    } 
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.cola{
+    float: left;
+}
+.cola.one{
+    width: 50%;
+   
+}
+.box1{
+    
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/26/05/53/wood-1108307__340.jpg);
+    margin: 0px;
+    height: 900px;
+}
+.options {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  .options a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .options a:hover {
+    background: #ddd;
+    color: black;
+  }
+  .o1{
+      margin-left: 400px;
+  }
+.cola.two{
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+}
+#img1{
+    width: 750px;
+    height: 750px;
+    margin-left: 40px;
+}
+
+.box2{
+   
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/26/05/53/wood-1108307__340.jpg);
+    margin: 0px;
+    padding: 0px;
+    height: 900px;
+    text-align: center;
+    color: green;
+    
+}
+#logo{
+    width: 300px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+#mainheading{
+     font-size: 150px;
+    margin: 0px;
+    margin-top: 0px;
+    /* padding-top:30%; */
+    padding-bottom: 0px;
+    background-image: url(https://media0.giphy.com/media/3o84U78CXEB2opZd4I/200w.webp?cid=ecf05e47b4f0xmqaz5yccoqm73aguw08rsu1yeybbnxj5j24&rid=200w.webp);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	
+	line-height: .75;
+
+}
+#search{
+   width: 80%; 
+  font-size: 20px;
+  padding-top: 0px;
+  margin-top: 15px;
+  padding:20px;
+  border: 1px solid #ddd;
+  shape-outside: ellipse();
+}
+.stepbox{
+    background-image: url(https://media3.giphy.com/media/BHNfhgU63qrks/200.webp?cid=ecf05e47g2cws6kdfq45w25eq1q5zb5xg4d1uf03bvjm0727&rid=200.webp);
+    
+}
+.stepsa:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+.stepsa{
+     position: relative;
+    animation: example 3s infinite;
+    
+}
+@keyframes example {
+    0% { left:0px; top:0px;}
+    50% { left:20px; top:0px;}
+    
+  }
+  
+.b1{
+    float: left;
+}
+.scan{
+    padding: 30px;
+    width: 300px;
+}
+.step1{
+    font-size: 100px;
+    margin-left: 20px;
+    margin-top: 200px;
+    color: aquamarine;
+}
+.stepsb:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+.stepsb{
+     position: relative; 
+    animation: ani 3s infinite;
+}
+@keyframes ani {
+    0% { left:0px; top:0px;}
+    50% { left:20px; top:0px;}
+    
+  }
+  
+.b3{
+    float: left;
+}
+.scan2{
+    padding: 30px;
+    width: 300px;
+}
+
+.step2{
+    padding-left: 700px;
+    font-size: 100px;
+    color: aquamarine;
+}
+.info{
+    padding: 20px;
+    background-image: url(https://media1.giphy.com/media/26vUucK24XyuAy9a0/200w.webp?cid=ecf05e47wb43grj58ond4bkvhyh9ejqu88rss6k3wh5lb6lc&rid=200w.webp);
+}
+
+.row2{
+    margin-top: 100px;
+}
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+.menu{
+    float: left;
+}
+#i1{
+    margin: 2px;
+    height: 350px; 
+}
+#i1mg{
+   width: 500px;
+   height: 332px;
+}
+#i2{
+    margin: 2px;
+   height: 350px;
+}
+#i3{
+    margin: 2px;
+   height: 350px;
+}
+ #ia{
+     width: 30%;
+    margin: 2px;
+    margin-left: 30px;
+     height: 100px; 
+     text-align: center;
+     background-color: chartreuse;
+   
+}
+
+#ib{
+    width: 30%;
+    margin: 2px;
+    margin-left: 35px;
+    height: 100px;
+    text-align: center;
+    background-color: aqua;
+    
+}
+#ic{
+    width: 30%;
+    margin: 2px;
+    margin-left: 60px;
+    height: 100px;
+    text-align: center;
+    background-color: deeppink;
+  
+} 
+#i4{
+    margin: 2px;
+    margin-top: 30px;
+    height: 350px;
+}
+#i5{
+    margin: 2px;
+    margin-top: 30px;
+    height: 350px;
+}
+#i6{
+    margin: 2px;
+    margin-top: 30px;
+    height: 350px;
+}
+.foot{
+    background-color: black;
+    color: aliceblue;
+    height: 400px;
+    margin-top: 100px;
+}
+.f{
+    float: left;
+}
+.f1{
+    width: 25%;
+   margin: 20px;
+    margin-top: 40px;
+}
+.f2{
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.f3{
+    width: 25%;
+    
+    margin-top: 40px;
+    text-align: center;
+}
